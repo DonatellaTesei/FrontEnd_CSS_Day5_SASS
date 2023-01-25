@@ -1,0 +1,35 @@
+.container {
+    text-align: center;
+    height: 120px;
+    padding: 15px;
+    p {
+        font-size: 2em;
+    }
+}
+
+.parallax {
+    background-image: url("https://cdn.pixabay.com/photo/2022/10/10/14/13/lotus-7511897__340.jpg");
+    /* Set a specific height */
+    height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.parallax2 {
+    background-image: url("https://cdn.pixabay.com/photo/2019/05/15/19/32/turtle-4205792_960_720.jpg");
+    /* Set a specific height */
+    height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.bar {
+    height: 2px;
+    /*   width: 100px; */
+    background-color: black;
+    align-items: center;
+}
